@@ -9,7 +9,9 @@ socket.io had been integrated with the Node.JS HTTP Server & "socket.io-client" 
 Note: In local the app is working as expected. But, I had tried deploying the appication in aws, there was a CORS error which held me back.
 
 Kindly pull the code into local your local and share your feedback :-). 
-steps to build after pulling: 
+
+Steps to build after pulling: 
+
 For serverside(backend) :  1) RUN "npm install" to manage dependencies.
                             2) Run "node app.js" 
                         Notice that an instance of socket.io has been initialised by passing the http object which will
@@ -18,4 +20,7 @@ For serverside(backend) :  1) RUN "npm install" to manage dependencies.
                             
 For clientside : 1)  Make sure you have the latest [Angular CLI]nstalled globally and RUN "npm install" to manage dependencies.
                  2)  Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
-                 Once the app loads in the browser it will automatically 
+                 Once the app loads in the browser it will automatically establishes connection to with server and gets data for every                      200ms, stores in channel array. For evey 500ms the graph will be updated with new point.
+                 
+                 
+# ScreenShot
